@@ -1,0 +1,225 @@
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,*:before,*:after{
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+@font-face {
+   font-family: "League Spartan";
+   src: url(/fonts/LeagueSpartan-VariableFont_wght.ttf);
+   font-weight: 300, 400, 500;
+   font-style: normal;
+   font-display: swap;
+}
+body{
+   font-family: "League Spartan", sans-serif;
+}
+
+.header {
+   display: flex;
+   width: 1440px;
+   padding-top: 104px;
+   padding-left: 133px;
+   padding-right: 133px;
+   padding-bottom: 168px;
+   background-color: #F8F8F8;
+}
+
+.header__left {
+   width: 792px;
+
+}
+
+.header__title {
+   font-size: 24px;
+   font-weight: 300;
+   color: #161515;
+
+}
+
+.header__subtitle {
+   margin-top: 53px;
+   font-size: 250px;
+   font-weight: 300;
+   color: #272727;
+}
+
+.header__info {
+   margin-top: 43px;
+   width: 575px;
+   font-size: 32px;
+   font-weight: 300;
+   color: #161515;
+   line-height: 49.8px
+}
+
+.header__buy {
+   margin-top: 61px;
+   display: flex;
+}
+
+.header__button_buy {
+background-color: #161515;;
+height: 82px;
+width: 278px;
+text-align: center;
+padding: 28px;
+font-size: 32px;
+font-weight: 300;
+}
+
+.button_buy_link{
+   color: white;
+}
+
+.header__button_ptice{
+   background-color: #ffffff;
+   height: 82px;
+   width: 143px;
+   text-align: center;
+   padding: 28px;
+   font-size: 32px;
+   font-weight: 300;
+}
+
+.button_buy_price {
+   color: #272727;
+}
+
+.header__right{
+margin-top: -104px;
+margin-left: -107px;
+}
+
+.main {
+width: 1440px;
+text-align: center;
+
+}
+
+.main__title{
+   font-size: 24px;
+   color: #000000;
+   font-weight: 300;
+   padding-top: 43px ;
+}
+
+.main__subtitle{
+   font-size: 72px;
+   color: #000000;
+   font-weight: 400;
+   padding-bottom:84px;
+}
+
+.section {
+width: 532px;
+margin-left: 455px;
+margin-right: 455px;
+
+}
+
+.section__img_son22 {
+   width: 417px;
+   height: 630px;
+   margin:0px 57px 0 57px;
+   padding-top: 110px;
+   background-color: #f8f8f8;
+}
+
+.section__title{
+   width: 285px;
+   font-size: 32px;
+   color: #000000;
+   font-weight: 400;
+   padding-top: 67px;
+   padding-bottom:17px;
+   margin-left:122px;
+}
+
+.section__description{
+   font-size: 32px;
+   font-weight: 300;
+   width: 532px;
+   line-height: 49.6px;
+}
+
+.section__img_sw12 {
+   width: 496px;
+   height: 630px;
+   margin:85px 18px 0 18px;
+   padding-top: 65px;
+   background-color: #f8f8f8;
+}
+
+.footer{
+   width: 1440px;
+   text-align: center;
+   margin-top: 120px;
+
+}
+
+.footer__name{
+   width: 972px;
+   font-size: 32px;
+   color: #000000;
+   font-weight: 400;
+   margin-left:234px;
+}
+
+hr {width: 1440px;}
+
+.hr{
+   width: 140px;
+   margin-top: 9px;
+   margin-bottom: 49px;
+   margin-left: 650px;
+   border-style: inset;
+   border-width: 1px;}
+
+.footer__description{
+   width:515px;
+   font-size: 24px;
+   color: #161515;
+   font-weight: 300;
+   margin-left:464px;
+   padding-bottom: 120px;
+   line-height: 40.8px;
+   height: 100%;
+}
+
+.footer__link{
+   color: #BB8B5D;
+   font-weight: 500;
+   line-height: 40.8px
+}
